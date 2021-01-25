@@ -1,0 +1,257 @@
+/*
+*		Global
+*
+*		@section global variables
+*/
+
+:root {
+  /* list default bootstrap */
+  /*--blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;*/
+  /* use project */
+  --primary-95: #e6f2ff;
+  --primary-85: #b3d7ff;
+}
+
+/*
+*		Global
+*
+*		@section global fonts
+*/
+
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i&display=swap'); /* light */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i&display=swap');
+/* regular */
+
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans:600,600i&display=swap'); /* semi-bold */
+
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans:700,700i&display=swap'); /* bold */
+
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans:800,800i&display=swap'); /* extra-bold */
+
+/*@import url('https://fonts.googleapis.com/css?family=Exo+2:100,100i&display=swap'); /* thin */
+
+/*@import url('https://fonts.googleapis.com/css?family=Exo+2:200,200i&display=swap'); /* extra-light */
+
+/*@import url('https://fonts.googleapis.com/css?family=Exo+2:300,300i&display=swap'); /* light */
+
+/*@import url('https://fonts.googleapis.com/css?family=Exo+2:400,400i&display=swap'); /* regular */
+
+/*@import url('https://fonts.googleapis.com/css?family=Exo+2:500,500i&display=swap'); /* medium */
+
+@import url('https://fonts.googleapis.com/css?family=Exo+2:600,600i&display=swap');
+/* semi-bold */
+
+/*@import url('https://fonts.googleapis.com/css?family=Exo+2:700,700i&display=swap'); /* bold */
+
+/*@import url('https://fonts.googleapis.com/css?family=Exo+2:800,800i&display=swap'); /* extra-bold */
+
+/*@import url('https://fonts.googleapis.com/css?family=Exo+2:900,900i&display=swap'); /* black */
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Exo 2';
+  src: url('/fonts/Exo_2/Exo2-SemiBoldItalic.ttf') format('truetype');
+}
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.exo2-semi-bold-italic {
+  font-family: 'Exo 2', sans-serif;
+  color: var(--primary);
+}
+
+.opens-regular-italic {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+}
+
+/*
+*   Global
+*
+*   @section global components
+*/
+
+html {
+  font-size: 1rem;
+}
+
+body {
+  margin-bottom: 2rem;
+  border-color: #00ffff;
+}
+
+.bg-primary-95 {
+  background: var(--primary-95);
+}
+
+.border-primary-85 {
+  border-color: var(--primary-85) !important;
+}
+
+.display {
+  display: none;
+}
+
+/*
+*   Global
+*
+*   @section global fonts size
+*/
+
+@media only screen and (max-width: 349px) {
+  html {
+    font-size: calc(0.3rem);
+  }
+  body {
+    padding-top: 7rem;
+  }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 439px) {
+  html {
+    font-size: calc(0.4rem);
+  }
+  body {
+    padding-top: 5.5rem;
+  }
+}
+
+@media only screen and (min-width: 440px) and (max-width: 519px) {
+  html {
+    font-size: calc(0.5rem);
+  }
+  body {
+    padding-top: 5rem;
+  }
+}
+
+@media only screen and (min-width: 520px) and (max-width: 576px) {
+  html {
+    font-size: calc(0.6rem);
+  }
+  body {
+    padding-top: 4.5rem;
+  }
+}
+
+@media only screen and (min-width: 575px) and (max-width: 768px) {
+  html {
+    font-size: calc(0.7rem);
+  }
+  body {
+    padding-top: 4rem;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 799px) {
+  html {
+    font-size: calc(0.5rem);
+  }
+  body {
+    padding-top: 5rem;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 919px) {
+  html {
+    font-size: calc(0.6rem);
+  }
+  body {
+    padding-top: 4.5rem;
+  }
+}
+
+@media only screen and (min-width: 920px) and (max-width: 1049px) {
+  html {
+    font-size: calc(0.7rem);
+  }
+  body {
+    padding-top: 4rem;
+  }
+}
+
+@media only screen and (min-width: 1050px) and (max-width: 1249px) {
+  html {
+    font-size: calc(0.8rem);
+  }
+  body {
+    padding-top: 3.8rem;
+  }
+}
+
+@media only screen and (min-width: 1250px) and (max-width: 1299px) {
+  html {
+    font-size: calc(0.9rem);
+  }
+  body {
+    padding-top: 3.6rem;
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1440px) {
+  html {
+    font-size: calc(1rem);
+  }
+  body {
+    padding-top: 3.5rem;
+  }
+}
+
+/*
+*		Single
+*
+*		@section single components
+*/
+
+.form-control-login-pwd {
+  display: inline;
+  margin-left: 10px;
+}
+
+.font-size-table {
+  font-size: 0.8rem;
+}
+
+.fa-key, .fa-user {
+  color: var(--primary);
+}
+
+.fa-small-size {
+  font-size: 20px;
+}
+
+#sidebar-wrapper {
+  min-height: 88vh;
+}
+
+.table-height {
+  height: 50vh !important;
+  max-height: calc(100vh) !important;
+}

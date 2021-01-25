@@ -1,0 +1,9 @@
+_temp*
+vendor
+fontawesome
+*.mwb
+*.bak
+*.code-workspace
+jquery.tablesorter.js
+config_db.ini
+*old*

@@ -1,0 +1,27 @@
+{
+
+	"name": "emso-exe/crudx",
+	
+	"description": "Projeto de aprendizado, sistema focado em gerenciar usuários com cadastro, consulta, edição e deleção de registros, um CRUD em PHP 7 com MySQL.",
+	
+    "type": "project",
+	
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "Estênio Mariano",
+            "email": "dev.emso.exe@gmail.com"
+        }
+    ],
+	
+	"autoload": {
+		
+		"psr-4":{
+
+			"app\\":"app"
+			
+		}
+	}
+
+}

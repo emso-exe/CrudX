@@ -1,0 +1,159 @@
+/*
+*		Global
+*
+*		@section global variables
+*/
+
+:root {
+  /* list default bootstrap */
+  /*--blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;*/
+  --white: #fff;
+  /*--gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;*/
+  /* use project */
+  --primary-95: #e6f2ff;
+  --primary-85: #b3d7ff;
+}
+
+/*
+*		Global
+*
+*		@section global fonts
+*/
+
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i&display=swap'); /* light */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i&display=swap');
+/* regular */
+
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans:600,600i&display=swap'); /* semi-bold */
+
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans:700,700i&display=swap'); /* bold */
+
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans:800,800i&display=swap'); /* extra-bold */
+
+/*@import url('https://fonts.googleapis.com/css?family=Exo+2:100,100i&display=swap'); /* thin */
+
+/*@import url('https://fonts.googleapis.com/css?family=Exo+2:200,200i&display=swap'); /* extra-light */
+
+/*@import url('https://fonts.googleapis.com/css?family=Exo+2:300,300i&display=swap'); /* light */
+
+/*@import url('https://fonts.googleapis.com/css?family=Exo+2:400,400i&display=swap'); /* regular */
+
+/*@import url('https://fonts.googleapis.com/css?family=Exo+2:500,500i&display=swap'); /* medium */
+
+@import url('https://fonts.googleapis.com/css?family=Exo+2:600,600i&display=swap');
+/* semi-bold */
+
+/*@import url('https://fonts.googleapis.com/css?family=Exo+2:700,700i&display=swap'); /* bold */
+
+/*@import url('https://fonts.googleapis.com/css?family=Exo+2:800,800i&display=swap'); /* extra-bold */
+
+/*@import url('https://fonts.googleapis.com/css?family=Exo+2:900,900i&display=swap'); /* black */
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Exo 2';
+  src: url('/fonts/Exo_2/Exo2-SemiBoldItalic.ttf') format('truetype');
+}
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.exo2-semi-bold-italic {
+  font-family: 'Exo 2', sans-serif;
+  color: var(--white);
+  ;
+}
+
+.opens-regular-italic {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+}
+
+/*
+*   Global
+*
+*   @section global components
+*/
+
+html {
+  font-size: 1rem;
+}
+
+body {
+  margin-bottom: 2rem;
+  border-color: #00ffff;
+}
+
+/*
+*		Single
+*
+*		@section single components
+*/
+
+.font-size-table {
+  font-size: 0.8rem;
+}
+
+#my-table {
+  width: 98%;
+  margin: 5px 10px 50px 10px !important;
+}
+
+@media print {
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    text-shadow: none !important;
+    filter: none !important;
+    -ms-filter: none !important;
+    font-family: 'Arial', sans-serif;
+    font-size: 0.8rem !important;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.4em;
+  }
+  #font-size-title {
+    font-size: 1rem !important;
+  }
+  i, button {
+    visibility: hidden;
+  }
+  tr:nth-child(odd) {
+    background-color: #cccccc !important;
+  }
+  page[size="A4"][layout="landscape"] {
+    width: 29.7cm;
+    height: 21cm;
+    margin: 1cm 0.5cm 1cm 0.5cm;
+    box-shadow: 0;
+  }
+  nav, footer, video, audio, object, embed, #page-content-footer {
+    display: none;
+  }
+}

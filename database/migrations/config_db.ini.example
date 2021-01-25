@@ -1,0 +1,11 @@
+; Arquivo de configuração de conexão com o banco de dados
+; Driver de conexão
+drive = mysql
+; Dados para conexão
+dbname = db_crudx
+host = localhost
+port = 3306
+charset = utf8
+; Credenciais de usuário
+username = username
+password = password
