@@ -1,9 +1,9 @@
 <?php
 
 use app\classes\Layout;
+use app\classes\Uri;
 use app\classes\Validation;
 use app\models\Query;
-use app\classes\Uri;
 
 if ($_POST) {
 
@@ -34,18 +34,6 @@ WHERE u.id_matricula = {$id};";
 $user = new Query;
 $user->createSelect($query_user);
 $found = $user->all();
-
-$select1 = new Query;
-$select1->createSelect("SELECT id_setor, nm_setor FROM setor ORDER BY nm_setor;");
-$sector = $select1->all();
-
-$select2 = new Query;
-$select2->createSelect("SELECT id_cargo, id_setor, nm_cargo FROM cargo ORDER BY nm_cargo;");
-$position = $select2->all();
-
-$select3 = new Query;
-$select3->createSelect("SELECT id_status, ds_status FROM status ORDER BY ds_status;");
-$status = $select3->all();
 
 $layout->add('layout_content');
 
