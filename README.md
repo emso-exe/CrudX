@@ -2,7 +2,7 @@
 
 # CRUDx
 
-Projeto de aprendizado, sistema gerenciador de usuários (_funcionários_) com cadastro, atribuição de cargo e setor e geração de matrícula, login e senha. O foco principal está na parte de cadastro, consulta e edição e deleção de usuários, um CRUD em PHP 7 com MySQL.
+Projeto de demonstração de um sistema gerenciador de usuários (_funcionários_) com cadastro, atribuição de cargo e setor e geração de matrícula, login e senha. O foco principal está na parte de cadastro, consulta, edição e deleção de usuários, um CRUD em PHP 7 com MySQL.
 
 ## Tecnologias
 
