@@ -11,8 +11,8 @@ SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,N
 -- -----------------------------------------------------
 -- Schema db_crudx
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `db_crudx` DEFAULT CHARACTER SET utf8 ;
-USE `db_crudx` ;
+CREATE SCHEMA IF NOT EXISTS `db_crudx` DEFAULT CHARACTER SET utf8;
+USE `db_crudx`;
 
 -- -----------------------------------------------------
 -- Table `db_crudx`.`setor`
@@ -113,8 +113,8 @@ CREATE TABLE IF NOT EXISTS `db_crudx`.`login` (
   CONSTRAINT `fk_login_usuario_id_matricula`
     FOREIGN KEY (`id_matricula`)
     REFERENCES `db_crudx`.`usuario` (`id_matricula`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
 ENGINE = InnoDB;
 
 
