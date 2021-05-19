@@ -38,35 +38,11 @@
 *		@section global fonts
 */
 
-/*@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i&display=swap'); /* light */
-
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i&display=swap');
 /* regular */
 
-/*@import url('https://fonts.googleapis.com/css?family=Open+Sans:600,600i&display=swap'); /* semi-bold */
-
-/*@import url('https://fonts.googleapis.com/css?family=Open+Sans:700,700i&display=swap'); /* bold */
-
-/*@import url('https://fonts.googleapis.com/css?family=Open+Sans:800,800i&display=swap'); /* extra-bold */
-
-/*@import url('https://fonts.googleapis.com/css?family=Exo+2:100,100i&display=swap'); /* thin */
-
-/*@import url('https://fonts.googleapis.com/css?family=Exo+2:200,200i&display=swap'); /* extra-light */
-
-/*@import url('https://fonts.googleapis.com/css?family=Exo+2:300,300i&display=swap'); /* light */
-
-/*@import url('https://fonts.googleapis.com/css?family=Exo+2:400,400i&display=swap'); /* regular */
-
-/*@import url('https://fonts.googleapis.com/css?family=Exo+2:500,500i&display=swap'); /* medium */
-
 @import url('https://fonts.googleapis.com/css?family=Exo+2:600,600i&display=swap');
 /* semi-bold */
-
-/*@import url('https://fonts.googleapis.com/css?family=Exo+2:700,700i&display=swap'); /* bold */
-
-/*@import url('https://fonts.googleapis.com/css?family=Exo+2:800,800i&display=swap'); /* extra-bold */
-
-/*@import url('https://fonts.googleapis.com/css?family=Exo+2:900,900i&display=swap'); /* black */
 
 @font-face {
   font-family: 'Open Sans';
@@ -221,6 +197,15 @@ body {
   }
   body {
     padding-top: 3.5rem;
+  }
+}
+
+@media only screen and (min-width: 1441px) {
+  html {
+    font-size: calc(1rem);
+  }
+  body {
+    padding-top: 3.7rem;
   }
 }
 
