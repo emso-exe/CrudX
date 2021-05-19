@@ -153,12 +153,12 @@
 							<span class="btn btn-secondary border-0">Status</span>
 						</div>
 					  </th>
-					  <th scope="col" class="border-left text-center col-md-1">
+					  <th scope="col" class="border-left text-center">
 						<div class="btn-group btn-group-sm" role="group">
 							<span class="btn btn-secondary border-0">Edição</span>
 						</div>
 					  </th>
-					  <th scope="col" class="text-center col-md-1">
+					  <th scope="col" class="text-center">
 					  	<div class="btn-group btn-group-sm" role="group">
 							<span class="btn btn-secondary border-0">Exclusão</span>
 						</div>
