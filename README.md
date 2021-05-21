@@ -12,6 +12,10 @@ Projeto de demonstração de um sistema gerenciador de usuários (_funcionários
 - MySQL
 - JavaScript
 
+## Tela principal
+
+<img src="imagem_crudx.png" alt="" width="750"> 
+
 ## Créditos
 
 - [Estênio Mariano](https://github.com/emso-exe)
