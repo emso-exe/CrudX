@@ -14,7 +14,7 @@ Projeto de demonstração de um sistema gerenciador de usuários (_funcionários
 
 ## Tela principal
 
-<img src="imagem_crudx.png" alt="" width="750"> 
+<img src="imagem_crudx.png" alt="" width="830"> 
 
 ## Créditos
 
